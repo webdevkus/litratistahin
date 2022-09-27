@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box; 
+    background: rgba(199, 187, 188, 0.8);
+    border-bottom: 1px solid #f3d8d1;
+
+
+}
+
+.logo{ 
+    padding: 2px 20px;
+    height: 80px;
+    float: left;
+   
+
+
+     
+}
+
+.nav ul{
+    list-style: none;
+    float: right;
+    margin:0;
+    padding: 0;
+    display: flex;
+
+
+}   
+
+.nav ul li a{
+    line-height: 80px;
+    color: #f6f5f0;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.nav ul li a:hover{
+    background: #ced6e0;
+    border-radius: 6px;
+
+}
+
+.pic{
+    width: 100%;
+    height: 100vh;
+    background: url(test1.jpg) ;
+    background-size:cover;
+    background-position:center ;
+}
+
+.box1{
+    background-color:rgba(246, 245, 240, 0.3) ;
+    width: 70vw;
+    height: 70vh;
+    position: absolute;
+    left: 15%;
+    top: 23%;
+
+
+    
+    
+
+}
+
+.box1 p{
+    font-style:italic;
+    font-weight: 500;
+    font-size: 19px;
+    padding: 15% 34%;
+    color:teal;
+}
+
+.box1 button{
+   padding: 5px;
+   color: teal;
+   background-color: #c7bbbc;
+   font-weight: 500;
+   
+}
+
+.pos {
+    padding: 0% 48%;
+}
+
+
+
+
+
